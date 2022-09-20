@@ -1,0 +1,65 @@
+.cabecalho {
+    background-color: var(--ciano-muito-palido);
+    background-image: url(../img/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.cabecalho-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5em;
+    margin-left: 1em;
+}
+
+.cabecalho-container__logo {
+    width: 28%;
+}
+
+.cabecalho-container__link {
+    background-color: var(--branco);
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.116);
+    color: var(--ciano-muito-escuro);
+    font-family: var(--titulos);
+    font-size: 12px;
+    margin-right: 1.5em;
+    padding: .5em 1.5em;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.cabacalho-titulo {
+    font-family: var(--titulos);
+    font-size: 23px;
+    line-height: 1.5em;
+    margin: 4em 2.2em 1em 2.2em;
+    text-transform: capitalize;
+}
+
+.cabecalho-texto {
+    line-height: 1.5em;
+    margin: 0em 2.2em;
+}
+
+.cabecalho-link--comece {
+    color: var(--branco);
+    background-color: var(--Rosa);
+    border-radius: 20px;
+    display: block;
+    font-family: var(--titulos);
+    font-size: 13px;
+    margin: 2.3em 5em;
+    text-decoration: none;
+    padding: 1em 0;
+}
+
+.cabecalho-link--comece:hover {
+    background-color: var(--rosa-claro);
+}
+
+.cabecalho-imagem {
+    margin: 1.1em 0 2em 0;
+    width: 80%;
+}

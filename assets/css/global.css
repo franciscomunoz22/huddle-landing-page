@@ -1,1 +1,21 @@
-@import url(reset.css);
+@import url(cabecalho.css);
+
+:root {
+    /*fontes*/
+    --titulos: 'Poppins', sans-serif;
+    --corpo: 'Open Sans', sans-serif;
+
+    /*cores*/
+    --ciano-muito-palido: #ebfbff;
+    --ciano-muito-escuro: #00252e;
+    --azul-acinzentado: #808d99;
+    --branco: #ffffff;
+    --Rosa: #ff52bf;
+    --rosa-claro: #ff9bdb;
+}
+
+body {
+    color: var(--ciano-muito-escuro);
+    font-family: var(--corpo);
+    font-size: 16px;
+}
