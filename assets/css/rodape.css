@@ -1,21 +1,18 @@
 .rodape {
-    align-items: center;
     background-color: var(--ciano-muito-escuro);
-    color: aliceblue;
-    display: flex;
-    flex-direction: column;
-    padding: 6em 0 2em 0;
-    margin-top: 15em;  
+    color: var(--branco);
+    margin-top: 11em;
+    padding: 6em .8em 2em .8em;  
 }
 
 .comunidade {
     background-color: var(--branco);
     border-radius: 15px;
     box-shadow: 0px 0px 20px 2px rgba(94, 92, 92, 0.116);
-    margin-top: -13em;
+    margin: -13em auto 4em;
+    max-width: 500px;
     padding: 3em 0em 3.5em 0;
     text-align: center;
-    width: 94%;
 }
 
 .comunidade__titulo {
@@ -40,4 +37,73 @@
 
 .comunidade__link:hover {
     background-color: var(--rosa-claro);
+}
+
+.rodape__logo {
+    width: 170px;
+}
+
+.endereco {
+    display: grid;
+}
+
+.endereco__descricao {
+    display: flex;
+    line-height: 1.5em;
+    margin: 1.5em 0;
+    width: 95%;
+}
+
+.endereco-icone::before {
+    content: url(../img/icon-location.svg);
+    margin-right: 1.4em;
+}
+
+.endereco__telefone, .endereco__email{
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.telefone-icone::before {
+    content: url(../img/icon-phone.svg);
+    margin-right: 1em;
+}
+
+.endereco__email {
+    margin: 1.5em 0;
+}
+
+.email-icone::before {
+    content: url(../img/icon-email.svg);
+    margin-right: 1em;
+}
+
+.rodape-lista {
+    margin: 1.5em 0;
+}
+
+.rodape-lista__link {
+    color: var(--branco);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.redes-sociais {
+    margin: 3em 0em 1.5em;
+    text-align: center;
+}
+
+.redes-sociais--imagem {
+    margin: 0 .5em;
+    width: 40px;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+@media screen and (max-width: 1440px) {
+    
 }
