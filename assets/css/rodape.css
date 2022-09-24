@@ -93,6 +93,10 @@
     text-align: center;
 }
 
+.redes-sociais--link {
+    text-decoration: none;
+}
+
 .redes-sociais--imagem {
     margin: 0 .5em;
     width: 40px;
