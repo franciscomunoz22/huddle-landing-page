@@ -26,8 +26,8 @@
 .comunidade__link {
     color: var(--branco);
     background-color: var(--Rosa);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.116);
     border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.116);
     font-family: var(--titulos);
     font-size: 11px;
     padding: 1.3em 4.5em;
@@ -39,12 +39,12 @@
     background-color: var(--rosa-claro);
 }
 
-.rodape__logo {
-    width: 170px;
-}
-
 .endereco {
     display: grid;
+}
+
+.endereco__logo {
+    width: 170px;
 }
 
 .endereco__descricao {
@@ -104,6 +104,55 @@
     text-align: center;
 }
 
-@media screen and (max-width: 1440px) {
-    
+@media screen and (min-width: 850px) {
+    .endereco-container {
+        align-items: center;
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+    }
+
+    .endereco {
+        margin-left: 6.5em;
+    }
+
+    .endereco__logo {
+        width: 250px;
+    }
+
+    .endereco-icone::before {
+        margin-top: .5em;
+    }
+
+    .lista-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .rodape-lista__link:hover {
+        color: violet;
+    }
+
+    .redes-sociais--imagem {
+        width: 32px;
+    }
+
+    .copyright {
+        grid-column: 3;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .comunidade {
+        max-width: 800px;
+    }
+
+    .comunidade__titulo {
+        font-size: 30px;
+    }
+
+    .comunidade__link {
+        border-radius: 40px;
+        font-size: 18px;
+        padding: 1.5em 6em;
+    }
 }
